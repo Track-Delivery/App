@@ -1,0 +1,87 @@
+name: track
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+#------------------ PACKAGES ----------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #  Utility Packages
+  http:
+  intl:
+  logger:
+  url_launcher:
+  flutter_native_splash:
+  smooth_page_indicator:
+  carousel_slider:
+
+  #Icons
+  cupertino_icons: ^1.0.2
+  iconsax:
+
+  #  State Management
+  get:
+  get_storage:
+
+
+#----------------- ./ PACKAGES END -------------#
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  
+  
+  
+  uses-material-design: true
+
+  #--------------- LOCAL ASSETS ---------------#
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/images/banners/
+    - assets/images/categories/
+    - assets/images/profile/
+
+  #--------------- LOCAL FONTS ---------------#
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/coolvetica_regular.otf
+          weight: 400
+        - asset: assets/fonts/coolvetica_regular_italic.otf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
+          weight: 800
+          style: italic
